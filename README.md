@@ -32,7 +32,7 @@
 
 ---
 
-## 🌟 Overview
+##  Overview
 
 This Slack AI Assistant is a production-grade conversational AI that combines three powerful systems:
 
@@ -54,21 +54,21 @@ This Bot:         User → Memory Recall → RAG Context → LLM + 59 Tools → 
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🔍 RAG (Retrieval Augmented Generation)
+###  RAG (Retrieval Augmented Generation)
 - **Semantic search** across indexed Slack messages
 - **Background indexing** of channels (runs every 60 minutes)
 - **Smart retrieval** with relevance scoring
 - Works even when bot can't access live channel
 
-### 🧠 Long-Term Memory
+###  Long-Term Memory
 - **Automatic fact extraction** from conversations
 - **Personalized responses** based on user history
 - **User-controlled** - view, add, or delete memories
 - **Cross-session persistence** - remembers across conversations
 
-### 🔌 MCP (Model Context Protocol)
+###   MCP (Model Context Protocol)
 - **GitHub Integration** (26 tools)
   - Search repositories, create issues, read files
   - List PRs, commits, manage code
@@ -76,7 +76,7 @@ This Bot:         User → Memory Recall → RAG Context → LLM + 59 Tools → 
   - Search pages, query databases
   - Read and update content
 
-### 💬 Slack Features
+###  Slack Features
 - **DM conversations** with pairing/approval system
 - **Channel mentions** with @bot
 - **Thread summarization** with `/summarize`
@@ -85,7 +85,7 @@ This Bot:         User → Memory Recall → RAG Context → LLM + 59 Tools → 
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 
 ### High-Level Architecture
 
@@ -266,7 +266,7 @@ This Bot:         User → Memory Recall → RAG Context → LLM + 59 Tools → 
 
 ---
 
-## 🔄 How It Works
+##  How It Works
 
 ### Message Processing Flow
 
@@ -449,7 +449,7 @@ When a user sends a message, here's the complete flow:
 │ STEP 7: SEND RESPONSE                                                           │
 │ ─────────────────────                                                           │
 │                                                                                 │
-│ • Remove 👀 reaction                                                            │
+│ • Remove reaction                                                            │
 │ • Send formatted response to Slack                                              │
 │ • Thread if needed (long response or existing thread)                           │
 │                                                                                 │
@@ -700,7 +700,7 @@ TOOL CALL:
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -879,7 +879,7 @@ Create `mcp-config.json` for custom MCP settings:
 
 ---
 
-## 💡 Usage Examples
+##  Usage Examples
 
 ### Basic Conversations
 
@@ -913,7 +913,7 @@ Bot:  Based on Slack history, here's what was discussed:
 
 ```
 User: Remember that I prefer Python over JavaScript
-Bot:  ✅ Got it! I'll remember that you prefer Python over JavaScript.
+Bot:   Got it! I'll remember that you prefer Python over JavaScript.
 
 ------- Later session -------
 
@@ -934,7 +934,7 @@ Bot:  Here are your repositories:
       ...
 
 User: Create an issue for the login bug
-Bot:  ✅ Created issue #42 in VizuaraAI/nano-kimi:
+Bot:   Created issue #42 in VizuaraAI/nano-kimi:
       "Login timeout bug"
       https://github.com/VizuaraAI/nano-kimi/issues/42
 ```
@@ -957,7 +957,7 @@ Bot:  Found 3 pages matching "project roadmap":
 User: Remember my GitHub is VizuaraAI. Search Slack for bugs we 
       discussed, then create issues for them.
 
-Bot:  ✅ I'll remember your GitHub username.
+Bot:   I'll remember your GitHub username.
       
       Searching Slack for bug discussions...
       Found 10 relevant messages.
@@ -971,7 +971,7 @@ Bot:  ✅ I'll remember your GitHub username.
 
 ---
 
-## 🔧 Available Tools
+##  Available Tools
 
 ### Slack Tools (12)
 
@@ -1020,7 +1020,7 @@ Bot:  ✅ I'll remember your GitHub username.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 slack-ai-assistant-v2/
