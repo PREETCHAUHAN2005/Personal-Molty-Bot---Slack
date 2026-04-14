@@ -1,4 +1,4 @@
-# 🤖 Slack AI Assistant v2
+#  Slack AI Assistant 
 
 > **An intelligent Slack bot powered by RAG (Retrieval Augmented Generation), Long-Term Memory, and MCP (Model Context Protocol) for GitHub & Notion integration.**
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#-overview)
 - [Features](#-features)
