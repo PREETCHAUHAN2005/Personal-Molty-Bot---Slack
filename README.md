@@ -194,9 +194,9 @@ Slack Bolt.js catches the message event.
 Query mem0 for anything relevant to this user + this message.
 
 Retrieved:
-  · "User's GitHub username is VizuaraAI"
+  · "User's GitHub username is PREETCHAUHAN2005"
   · "User prefers detailed technical explanations"
-  · "User is co-founder of Vizuara AI Labs"
+  · "User is Preet Chauhan"
 ```
 
 ---
@@ -221,7 +221,7 @@ System prompt is built with layered context:
 │  [SYSTEM]  You are OM Bot, a helpful AI assistant...         │
 ├──────────────────────────────────────────────────────────────┤
 │  [SYSTEM]  ## What I Remember About You                      │
-│            1. GitHub: VizuaraAI                              │
+│            1. GitHub: PREETCHAUHAN2005                             │
 │            2. Prefers detailed explanations                  │
 ├──────────────────────────────────────────────────────────────┤
 │  [SYSTEM]  ## Relevant Slack History                         │
@@ -247,7 +247,7 @@ Round 1 — GPT-4o decides to search first:
 
 Round 2 — Now creates the GitHub issues:
   CALL  github_create_issue({
-          owner: "VizuaraAI", repo: "nano-kimi",
+          owner: "PREETCHAUHAN2005", repo: "openclaw",
           title: "Fix login timeout bug",
           body: "As discussed on Oct 5 in #dev-team..."
         })
@@ -342,8 +342,8 @@ Semantically searchable on your next message
 
 | Category | Example Stored Fact | Effect on Next Session |
 |:---|:---|:---|
-| **Identity** | "User is co-founder of Vizuara AI Labs" | Context-aware responses |
-| **Technical prefs** | "User's GitHub username is VizuaraAI" | Auto-fills tool arguments |
+| **Identity** | "User is Preet Chauhan" | Context-aware responses |
+| **Technical prefs** | "User's GitHub username is PREETCHAUHAN2005" | Auto-fills tool arguments |
 | **Style prefs** | "User wants detailed explanations" | Adjusts response depth |
 | **Projects** | "User is building nano-kimi" | Understands domain context |
 | **Interests** | "User cares about SOP and LOR processes" | Prioritizes relevant topics |
@@ -400,8 +400,8 @@ MCP (Model Context Protocol) is Anthropic's open standard for connecting LLMs to
   "params": {
     "name": "create_issue",
     "arguments": {
-      "owner": "VizuaraAI",
-      "repo": "nano-kimi",
+      "owner": "PREETCHAUHAN2005",
+      "repo": "openclaw",
       "title": "Fix login timeout bug",
       "body": "Reported in #dev-team on Oct 5..."
     }
