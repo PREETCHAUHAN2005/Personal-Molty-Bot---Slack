@@ -33,7 +33,7 @@
 
 ---
 
-## 🧭 What's Inside
+##  What's Inside
 
 - [The Pitch](#-the-pitch)
 - [Three Superpowers](#-three-superpowers)
@@ -61,9 +61,9 @@ Most bots forget everything the moment a conversation ends. Most search tools ar
 
 | What | How | Why It Matters |
 |:---|:---|:---|
-| 🔍 **Semantic Search** | Vector embeddings over all indexed Slack messages | Finds *meaning*, not just keywords |
-| 🧠 **Persistent Memory** | mem0.ai extracts facts from every conversation | Learns your preferences & context over time |
-| 🔌 **Live Tool Access** | 59 tools across Slack, GitHub & Notion via MCP | Acts on the world, not just talks about it |
+|  **Semantic Search** | Vector embeddings over all indexed Slack messages | Finds *meaning*, not just keywords |
+|  **Persistent Memory** | mem0.ai extracts facts from every conversation | Learns your preferences & context over time |
+|  **Live Tool Access** | 59 tools across Slack, GitHub & Notion via MCP | Acts on the world, not just talks about it |
 
 ```
 A standard LLM: ──────────────────────────────▶  response (stateless, isolated)
@@ -83,16 +83,16 @@ A standard LLM: ─────────────────────�
 
 ---
 
-## ⚡ Three Superpowers
+##  Three Superpowers
 
-### 🔍 RAG — Retrieval Augmented Generation
+### RAG — Retrieval Augmented Generation
 Every message sent in your channels is quietly indexed in the background. When you ask about something discussed in the past, OM Bot doesn't guess — it *retrieves* the actual conversation and builds its answer on real data.
 
 - Background channel indexing every 60 minutes
 - Semantic similarity scoring (not keyword matching)
 - Works even when the bot doesn't have direct channel access
 
-### 🧠 Long-Term Memory
+###  Long-Term Memory
 After every conversation, OM Bot extracts facts and stores them. Next session, it already knows your GitHub handle, your team's preferences, your project names. The more you use it, the smarter it gets *about you*.
 
 - User-controlled: view, add, or wipe memories anytime
@@ -183,7 +183,7 @@ Let's trace a single message from arrival to response.
 ```
 Slack Bolt.js catches the message event.
 → Is this a DM? Is the user approved? Is the bot mentioned?
-→ React with 👀 to confirm receipt
+→ React with 😊 to confirm receipt
 → Retrieve or create a session for conversation continuity
 ```
 
@@ -272,7 +272,7 @@ After response is sent (async, non-blocking):
 
 **⑦ Response Delivered**
 ```
-→ Remove 👀 reaction
+→ Remove 😊 reaction
 → Post formatted response to Slack
 → Thread if response is long or a thread already exists
 
@@ -283,7 +283,7 @@ After response is sent (async, non-blocking):
 
 ---
 
-## 🔬 Deep Dives
+##  Deep Dives
 
 ### 1. RAG — Slack as a Knowledge Base
 
@@ -431,7 +431,7 @@ For each configured MCP server:
 
 ---
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 ### What You'll Need
 
@@ -598,7 +598,7 @@ Create `mcp-config.json` to override defaults or add new servers:
 
 ---
 
-## 💬 See It In Action
+##  See It In Action
 
 #### Pulling from Slack history
 ```
@@ -669,7 +669,7 @@ OM   →  Remembered your GitHub handle.
 
 ---
 
-## 🗂️ Full Tool Catalog
+##  Full Tool Catalog
 
 ### Slack Built-in Tools (12)
 
@@ -773,7 +773,7 @@ om-bot/
 
 ---
 
-## 🐛 Troubleshooting Playbook
+##  Troubleshooting Playbook
 
 #### MCP server not connecting
 
