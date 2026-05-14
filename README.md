@@ -53,7 +53,7 @@
 
 ---
 
-## 💡 The Pitch
+##  The Pitch
 
 Most bots forget everything the moment a conversation ends. Most search tools are keyword-only. Most integrations require jumping between five tabs.
 
@@ -99,7 +99,7 @@ After every conversation, OM Bot extracts facts and stores them. Next session, i
 - Powered by mem0.ai cloud
 - Fully cross-session — nothing is lost between conversations
 
-### 🔌 MCP Integration (GitHub + Notion)
+###  MCP Integration (GitHub + Notion)
 Using Anthropic's Model Context Protocol, OM Bot connects to external services over a standardized interface. It doesn't just answer — it creates issues, reads files, searches databases, and updates pages.
 
 - **26 GitHub tools** — repos, issues, PRs, code search, file reads
@@ -171,7 +171,7 @@ Using Anthropic's Model Context Protocol, OM Bot connects to external services o
 
 ---
 
-## 🔄 Message Lifecycle — A Full Walkthrough
+##  Message Lifecycle — A Full Walkthrough
 
 Let's trace a single message from arrival to response.
 
@@ -892,5 +892,7 @@ MIT — see [LICENSE](LICENSE).
 *OM Bot — because your team's knowledge shouldn't live and die in a chat scroll.*
 
 ⭐ If this saves you time, a star goes a long way.
+
+ Build with ❤️ by Preet Chauhan.
 
 </div>
