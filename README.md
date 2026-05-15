@@ -19,7 +19,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)&nbsp;
 [![Slack](https://img.shields.io/badge/Slack-Bolt.js-4A154B?style=flat-square&logo=slack&logoColor=white)](https://slack.dev/bolt-js/)&nbsp;
 [![OpenAI](https://img.shields.io/badge/GPT--4o-Powered-412991?style=flat-square&logo=openai&logoColor=white)](https://openai.com/)&nbsp;
-[![License](https://img.shields.io/badge/License-MIT-F7C948?style=flat-square)](LICENSE)
+
 
 <br/>
 
