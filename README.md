@@ -108,7 +108,7 @@ Using Anthropic's Model Context Protocol, OM Bot connects to external services o
 
 ---
 
-## 🏛️ System Architecture
+##  System Architecture
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
